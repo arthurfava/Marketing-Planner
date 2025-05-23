@@ -1,0 +1,28 @@
+{
+  "name": "Sistema_Planejamento_Marketing",
+  "version": "1.0.0",
+  "type": "a2a_agent",
+  "description": "Sistema A2A para planejamento de marketing com 7 agentes especializados",
+  "sub_agents": [
+    "Analista_de_Briefing",
+    "Analista_de_Mercado",
+    "Planejador_Estrategico",
+    "Especialista_em_Comportamento",
+    "Diretor_Criativo",
+    "Especialista_em_Planejamento",
+    "Especialista_em_Gestao_de_Projetos"
+  ],
+  "workflow": {
+    "type": "orchestrated",
+    "phases": 7,
+    "validation": true
+  },
+  "capabilities": {
+    "briefing": true,
+    "market_analysis": true,
+    "strategic_planning": true,
+    "creative_development": true,
+    "media_planning": true,
+    "project_management": true
+  }
+}
